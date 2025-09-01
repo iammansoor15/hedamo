@@ -1,0 +1,620 @@
+[
+  {
+    "id": 1,
+    "name": "Hedamo Organic Honey",
+    "shortDescription": "Pure wild honey harvested from organic farms",
+    "image": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=400&h=300&fit=crop&crop=center",
+    "category": "Food",
+    "price": 24.99,
+    "rating": 4.8,
+    "reviewCount": 156,
+    "description": "Our premium organic honey is carefully harvested from pristine wildflower meadows, ensuring the highest quality and purity. Each jar contains the essence of nature's sweetness, free from artificial additives and processed with minimal intervention to preserve its natural enzymes and nutrients.",
+    "features": [
+      "100% Unprocessed",
+      "Rich in Antioxidants", 
+      "Nutrient-Dense",
+      "Eco-Friendly Packaging",
+      "Sustainably Sourced",
+      "No Artificial Additives"
+    ],
+    "nutrition": {
+      "servingSize": "1 tablespoon (21g)",
+      "calories": 70,
+      "totalFat": "0g",
+      "sodium": "1mg",
+      "totalCarbs": "17g",
+      "sugars": "16g",
+      "protein": "0g",
+      "vitamins": ["Vitamin C", "Vitamin B6", "Riboflavin"],
+      "minerals": ["Iron", "Zinc", "Potassium", "Calcium"]
+    },
+    "traceability": {
+      "origin": "Wildflower Meadows, Northern California",
+      "harvestDate": "September 2024",
+      "beekeeper": "Mountain View Apiary",
+      "certifications": ["USDA Organic", "Non-GMO Project Verified"],
+      "processingDate": "October 2024",
+      "batchNumber": "HH-2024-09-001",
+      "sustainability": "Carbon-neutral shipping, recyclable glass jars"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "author": "Sarah M.",
+        "rating": 5,
+        "comment": "The best honey I've ever tasted! You can really taste the difference in quality.",
+        "date": "2024-12-15",
+        "verified": true
+      },
+      {
+        "id": 2,
+        "author": "John D.",
+        "rating": 5,
+        "comment": "Perfect for my morning tea. Love knowing exactly where it comes from.",
+        "date": "2024-12-10",
+        "verified": true
+      },
+      {
+        "id": 3,
+        "author": "Emma L.",
+        "rating": 4,
+        "comment": "Great quality honey, though a bit pricey. Worth it for the organic certification.",
+        "date": "2024-12-08",
+        "verified": true
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=400&h=300&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=400&h=300&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=400&h=300&fit=crop&crop=center"
+    ],
+    "specifications": {
+      "weight": "12 oz (340g)",
+      "container": "Glass jar with metal lid",
+      "shelfLife": "2 years from harvest date",
+      "storage": "Store in cool, dry place",
+      "color": "Golden amber",
+      "texture": "Smooth, crystallizes naturally over time"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Hedamo Artisan Coffee Beans",
+    "shortDescription": "Single-origin Ethiopian coffee beans, ethically sourced",
+    "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&h=300&fit=crop&crop=center",
+    "category": "Beverages",
+    "price": 18.99,
+    "rating": 4.7,
+    "reviewCount": 89,
+    "description": "Experience the rich, complex flavors of our premium Ethiopian coffee beans. Grown in the highlands of Sidamo at 1,800+ meters elevation, these beans offer a perfect balance of fruity notes and chocolate undertones, roasted to perfection in small batches.",
+    "features": [
+      "Single-Origin Ethiopian",
+      "Medium Roast",
+      "Fair Trade Certified",
+      "Small Batch Roasted",
+      "Whole Bean",
+      "Airtight Sealed"
+    ],
+    "nutrition": {
+      "servingSize": "1 cup (8 fl oz)",
+      "calories": 2,
+      "totalFat": "0g",
+      "sodium": "5mg",
+      "totalCarbs": "0g",
+      "sugars": "0g",
+      "protein": "0.3g",
+      "caffeine": "95mg",
+      "antioxidants": "High levels of chlorogenic acid"
+    },
+    "traceability": {
+      "origin": "Sidamo Region, Ethiopia",
+      "altitude": "1,800-2,000 meters",
+      "harvest": "October-December 2024",
+      "farm": "Kochere Washing Station",
+      "certifications": ["Fair Trade", "Organic", "Bird Friendly"],
+      "roastDate": "Within 2 weeks of purchase",
+      "roaster": "Hedamo Coffee Roastery",
+      "sustainability": "Direct trade partnerships, reforestation programs"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "author": "Michael R.",
+        "rating": 5,
+        "comment": "Incredible flavor profile! Best Ethiopian coffee I've had.",
+        "date": "2024-12-14",
+        "verified": true
+      },
+      {
+        "id": 2,
+        "author": "Lisa K.",
+        "rating": 4,
+        "comment": "Great coffee, though I prefer a darker roast. Still very good!",
+        "date": "2024-12-12",
+        "verified": true
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=400&h=300&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=400&h=300&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=400&h=300&fit=crop&crop=center"
+    ],
+    "specifications": {
+      "weight": "12 oz (340g)",
+      "roastLevel": "Medium",
+      "grindOptions": "Whole bean (recommended), Ground available",
+      "processingMethod": "Washed",
+      "flavorNotes": ["Blueberry", "Dark Chocolate", "Wine", "Citrus"],
+      "brewMethods": ["Pour Over", "French Press", "Espresso", "Cold Brew"]
+    }
+  },
+  {
+    "id": 3,
+    "name": "Hedamo Handwoven Wool Scarf",
+    "shortDescription": "Luxurious merino wool scarf, handwoven by local artisans",
+    "image": "https://images.unsplash.com/photo-1601924582970-9238bcb495d9?w=400&h=300&fit=crop&crop=center",
+    "category": "Fashion",
+    "price": 89.99,
+    "rating": 4.9,
+    "reviewCount": 42,
+    "description": "Embrace comfort and style with our exquisite handwoven merino wool scarf. Each piece is meticulously crafted by skilled artisans using traditional weaving techniques, creating a unique accessory that combines warmth, softness, and timeless elegance.",
+    "features": [
+      "100% Merino Wool",
+      "Handwoven Craftsmanship",
+      "Naturally Breathable",
+      "Hypoallergenic",
+      "Temperature Regulating",
+      "Artisan Made"
+    ],
+    "nutrition": {},
+    "traceability": {
+      "origin": "Scottish Highlands",
+      "woolSource": "Free-range Merino sheep",
+      "artisan": "Highland Weavers Cooperative",
+      "certifications": ["Responsible Wool Standard", "OEKO-TEX Standard 100"],
+      "productionTime": "3-4 weeks per scarf",
+      "dyeMethod": "Natural plant-based dyes",
+      "sustainability": "Zero-waste production, biodegradable packaging"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "author": "Rachel P.",
+        "rating": 5,
+        "comment": "Absolutely beautiful scarf! The quality is exceptional and it's so warm.",
+        "date": "2024-12-13",
+        "verified": true
+      },
+      {
+        "id": 2,
+        "author": "David W.",
+        "rating": 5,
+        "comment": "Bought this as a gift and it was perfect. The craftsmanship is amazing.",
+        "date": "2024-12-11",
+        "verified": true
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601924582970-9238bcb495d9?w=400&h=300&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=300&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=400&h=300&fit=crop&crop=center"
+    ],
+    "specifications": {
+      "dimensions": "70\" x 20\" (178cm x 51cm)",
+      "weight": "8 oz (227g)",
+      "material": "100% Merino Wool",
+      "careInstructions": "Hand wash cold, lay flat to dry",
+      "colors": ["Charcoal Grey", "Forest Green", "Burgundy", "Navy Blue"],
+      "pattern": "Traditional Highland Weave"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Hedamo Cold-Pressed Olive Oil",
+    "shortDescription": "Extra virgin olive oil from Mediterranean orchards",
+    "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=400&h=300&fit=crop&crop=center",
+    "category": "Food",
+    "price": 32.50,
+    "rating": 4.9,
+    "reviewCount": 203,
+    "description": "Our premium cold-pressed olive oil is extracted from the finest olives harvested at their peak ripeness. This extra virgin oil captures the authentic Mediterranean flavor with its fruity notes, peppery finish, and rich, golden hue.",
+    "features": [
+      "Extra Virgin",
+      "Cold-Pressed",
+      "First Press",
+      "Polyphenol Rich",
+      "Unfiltered",
+      "Glass Bottle"
+    ],
+    "nutrition": {
+      "servingSize": "1 tablespoon (15g)",
+      "calories": 120,
+      "totalFat": "14g",
+      "saturatedFat": "2g",
+      "sodium": "0mg",
+      "totalCarbs": "0g",
+      "sugars": "0g",
+      "protein": "0g",
+      "vitamins": ["Vitamin E", "Vitamin K"],
+      "antioxidants": "High in polyphenols and tocopherols"
+    },
+    "traceability": {
+      "origin": "Toscana, Italy",
+      "oliveVariety": "Frantoio and Leccino",
+      "harvest": "October-November 2024",
+      "mill": "Castiglione Olive Mill",
+      "certifications": ["DOP Certified", "Organic EU"],
+      "extractionMethod": "Cold-pressing at 25°C",
+      "batchNumber": "OO-2024-10-002",
+      "sustainability": "Regenerative farming, carbon-neutral packaging"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "author": "Marco T.",
+        "rating": 5,
+        "comment": "Authentic Italian olive oil! The flavor is incredible.",
+        "date": "2024-12-16",
+        "verified": true
+      },
+      {
+        "id": 2,
+        "author": "Sophia L.",
+        "rating": 5,
+        "comment": "Perfect for cooking and salads. Great peppery finish!",
+        "date": "2024-12-14",
+        "verified": true
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=400&h=300&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=400&h=300&fit=crop&crop=center"
+    ],
+    "specifications": {
+      "weight": "500ml (16.9 fl oz)",
+      "container": "Dark glass bottle with cork",
+      "shelfLife": "2 years from extraction date",
+      "storage": "Store in cool, dark place away from light",
+      "acidity": "<0.3%",
+      "extractionMethod": "Cold-pressing at controlled temperature"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Hedamo Herbal Tea Collection",
+    "shortDescription": "Artisan blended herbal teas from organic gardens",
+    "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=400&h=300&fit=crop&crop=center",
+    "category": "Beverages",
+    "price": 28.00,
+    "rating": 4.6,
+    "reviewCount": 127,
+    "description": "Discover the soothing power of our carefully curated herbal tea collection. Each blend combines organic herbs, flowers, and spices from sustainable farms, creating harmonious infusions that promote wellness and relaxation.",
+    "features": [
+      "Organic Ingredients",
+      "Caffeine-Free",
+      "Loose Leaf",
+      "Sustainable Packaging",
+      "Hand-Blended",
+      "Therapeutic Benefits"
+    ],
+    "nutrition": {
+      "servingSize": "1 cup (8 fl oz)",
+      "calories": 0,
+      "totalFat": "0g",
+      "sodium": "0mg",
+      "totalCarbs": "0g",
+      "sugars": "0g",
+      "protein": "0g",
+      "caffeine": "0mg",
+      "antioxidants": "High in flavonoids and polyphenols"
+    },
+    "traceability": {
+      "origin": "Organic Gardens, Provence, France",
+      "herbs": ["Lavender", "Chamomile", "Peppermint", "Lemon Balm"],
+      "harvest": "Summer 2024",
+      "blender": "Provence Herbal Cooperative",
+      "certifications": ["EU Organic", "Fair Wild"],
+      "blendDate": "Within 1 month of purchase",
+      "batchNumber": "TC-2024-07-003",
+      "sustainability": "Wildcrafted herbs, biodegradable packaging"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "author": "Elena R.",
+        "rating": 5,
+        "comment": "These teas are incredibly soothing. My favorite evening ritual!",
+        "date": "2024-12-15",
+        "verified": true
+      },
+      {
+        "id": 2,
+        "author": "Tom H.",
+        "rating": 4,
+        "comment": "Great variety of flavors. Perfect for different moods.",
+        "date": "2024-12-13",
+        "verified": true
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=400&h=300&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400&h=300&fit=crop&crop=center"
+    ],
+    "specifications": {
+      "weight": "200g (7 oz)",
+      "container": "Recyclable tin with window",
+      "shelfLife": "2 years from packaging date",
+      "storage": "Store in cool, dry place",
+      "blends": ["Relaxation", "Digestive", "Immunity", "Sleep"],
+      "brewTime": "5-7 minutes at 85°C (185°F)"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Hedamo Sustainable Leather Wallet",
+    "shortDescription": "Handcrafted vegetable-tanned leather wallet",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=300&fit=crop&crop=center",
+    "category": "Fashion",
+    "price": 75.00,
+    "rating": 4.8,
+    "reviewCount": 78,
+    "description": "Our sustainable leather wallet combines timeless craftsmanship with modern eco-consciousness. Made from vegetable-tanned leather using traditional methods, this wallet ages beautifully while being kind to the environment.",
+    "features": [
+      "Vegetable-Tanned Leather",
+      "Handcrafted",
+      "RFID Blocking",
+      "Multiple Card Slots",
+      "Eco-Friendly",
+      "Ages Beautifully"
+    ],
+    "nutrition": {},
+    "traceability": {
+      "origin": "Maranello, Italy",
+      "leatherSource": "Italian tanneries using vegetable tanning",
+      "artisan": "Maranello Leatherworks",
+      "certifications": ["LWG Certified", "Vegetable Tanning"],
+      "productionTime": "2-3 weeks per wallet",
+      "dyeMethod": "Natural vegetable dyes",
+      "sustainability": "Zero-waste production, recycled packaging"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "author": "Giovanni M.",
+        "rating": 5,
+        "comment": "Beautiful craftsmanship! The leather gets better with age.",
+        "date": "2024-12-14",
+        "verified": true
+      },
+      {
+        "id": 2,
+        "author": "Anna K.",
+        "rating": 5,
+        "comment": "Love the ethical production and quality materials.",
+        "date": "2024-12-12",
+        "verified": true
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=300&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1601924582970-9238bcb495d9?w=400&h=300&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=400&h=300&fit=crop&crop=center"
+    ],
+    "specifications": {
+      "dimensions": "4\" x 3.5\" x 0.5\" (10cm x 9cm x 1.3cm)",
+      "weight": "3.5 oz (100g)",
+      "material": "Vegetable-tanned full-grain leather",
+      "careInstructions": "Condition with leather balm every 6 months",
+      "capacity": "8 cards + cash compartment",
+      "features": ["RFID blocking", "Multiple card slots", "ID window"]
+    }
+  },
+  {
+    "id": 7,
+    "name": "Hedamo Organic Quinoa",
+    "shortDescription": "Premium organic quinoa from Andean farmers",
+    "image": "https://images.unsplash.com/photo-1515516969-d4008cc6241a?w=400&h=300&fit=crop&crop=center",
+    "category": "Food",
+    "price": 16.99,
+    "rating": 4.7,
+    "reviewCount": 134,
+    "description": "Our organic quinoa is sourced directly from Andean farmers who have been cultivating this ancient grain for centuries. This complete protein provides all essential amino acids and cooks to a perfect fluffy texture.",
+    "features": [
+      "100% Organic",
+      "Complete Protein",
+      "Gluten-Free",
+      "High in Fiber",
+      "Sustainably Sourced",
+      "Pre-Washed"
+    ],
+    "nutrition": {
+      "servingSize": "1/4 cup dry (45g)",
+      "calories": 170,
+      "totalFat": "3g",
+      "saturatedFat": "0g",
+      "sodium": "5mg",
+      "totalCarbs": "30g",
+      "fiber": "5g",
+      "sugars": "1g",
+      "protein": "6g",
+      "vitamins": ["Vitamin B6", "Folic Acid", "Iron"],
+      "minerals": ["Magnesium", "Phosphorus", "Potassium"]
+    },
+    "traceability": {
+      "origin": "Sacred Valley, Peru",
+      "farmers": "Cooperative of Andean farmers",
+      "harvest": "March-May 2024",
+      "processing": "Traditional washing and drying methods",
+      "certifications": ["USDA Organic", "Fair Trade"],
+      "packagingDate": "Within 2 weeks of harvest",
+      "batchNumber": "QN-2024-04-004",
+      "sustainability": "Traditional farming methods, biodiversity preservation"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "author": "Carlos M.",
+        "rating": 5,
+        "comment": "Perfect texture and authentic flavor from the Andes!",
+        "date": "2024-12-16",
+        "verified": true
+      },
+      {
+        "id": 2,
+        "author": "Maria S.",
+        "rating": 4,
+        "comment": "Great for salads and grain bowls. Cooks perfectly.",
+        "date": "2024-12-14",
+        "verified": true
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1515516969-d4008cc6241a?w=400&h=300&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1551782450-17144efb5723?w=400&h=300&fit=crop&crop=center"
+    ],
+    "specifications": {
+      "weight": "1 lb (454g)",
+      "container": "Eco-friendly kraft bag",
+      "shelfLife": "2 years from packaging date",
+      "storage": "Store in cool, dry place",
+      "cookTime": "15 minutes",
+      "yield": "3 cups cooked per cup dry",
+      "protein": "Complete protein source"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Hedamo Matcha Green Tea",
+    "shortDescription": "Ceremonial grade matcha from Japanese tea gardens",
+    "image": "https://images.unsplash.com/photo-1545048702-79362596cdc9?w=400&h=300&fit=crop&crop=center",
+    "category": "Beverages",
+    "price": 42.00,
+    "rating": 4.9,
+    "reviewCount": 92,
+    "description": "Experience the purest form of green tea with our ceremonial grade matcha. Stone-ground from the finest tencha leaves grown in the misty mountains of Japan, this vibrant green powder offers unparalleled freshness and nutritional benefits.",
+    "features": [
+      "Ceremonial Grade",
+      "Stone-Ground",
+      "Rich in Antioxidants",
+      "High in Chlorophyll",
+      "Traditional Japanese",
+      "Vibrant Green"
+    ],
+    "nutrition": {
+      "servingSize": "1 tsp (2g)",
+      "calories": 10,
+      "totalFat": "0g",
+      "sodium": "0mg",
+      "totalCarbs": "1g",
+      "fiber": "1g",
+      "sugars": "0g",
+      "protein": "0.5g",
+      "caffeine": "35mg",
+      "antioxidants": "High in catechins and EGCG"
+    },
+    "traceability": {
+      "origin": "Uji, Kyoto Prefecture, Japan",
+      "farm": "Traditional tea gardens",
+      "harvest": "Spring 2024",
+      "production": "Stone-ground processing",
+      "certifications": ["JAS Organic", "Uji Tea Certification"],
+      "grindingDate": "Within 48 hours of harvest",
+      "batchNumber": "MT-2024-05-005",
+      "sustainability": "Shade-grown method, minimal processing"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "author": "Yuki T.",
+        "rating": 5,
+        "comment": "Authentic ceremonial grade! The color and flavor are exceptional.",
+        "date": "2024-12-15",
+        "verified": true
+      },
+      {
+        "id": 2,
+        "author": "James L.",
+        "rating": 5,
+        "comment": "Perfect for matcha lattes and traditional ceremonies.",
+        "date": "2024-12-13",
+        "verified": true
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1545048702-79362596cdc9?w=400&h=300&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400&h=300&fit=crop&crop=center"
+    ],
+    "specifications": {
+      "weight": "30g (1.06 oz)",
+      "container": "Light-proof tin can",
+      "shelfLife": "1 year from production date",
+      "storage": "Refrigerate after opening",
+      "grade": "Ceremonial (highest quality)",
+      "grindingMethod": "Traditional stone grinding",
+      "particleSize": "5-10 microns"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Hedamo Bamboo Cutting Board",
+    "shortDescription": "Sustainable bamboo cutting board with juice groove",
+    "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop&crop=center",
+    "category": "Home",
+    "price": 45.00,
+    "rating": 4.8,
+    "reviewCount": 156,
+    "description": "Our bamboo cutting board combines durability with sustainability. Made from rapidly renewable bamboo using traditional joinery techniques, this board features a convenient juice groove and non-slip feet for safe, efficient food preparation.",
+    "features": [
+      "100% Bamboo",
+      "Juice Groove",
+      "Non-Slip Feet",
+      "Easy to Clean",
+      "Sustainable",
+      "Food-Safe Finish"
+    ],
+    "nutrition": {},
+    "traceability": {
+      "origin": "Bamboo Forests, China",
+      "manufacturer": "Sustainable Bamboo Crafts Co.",
+      "certifications": ["FSC Certified", "Food-Safe"],
+      "productionMethod": "Traditional steam-bending",
+      "batchNumber": "BB-2024-06-006",
+      "sustainability": "Fast-growing bamboo, minimal environmental impact"
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "author": "Chef Alex R.",
+        "rating": 5,
+        "comment": "Perfect for home cooking! Durable and beautiful.",
+        "date": "2024-12-14",
+        "verified": true
+      },
+      {
+        "id": 2,
+        "author": "Sarah C.",
+        "rating": 5,
+        "comment": "Love the juice groove and non-slip feet. Great quality!",
+        "date": "2024-12-12",
+        "verified": true
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?w=400&h=300&fit=crop&crop=center"
+    ],
+    "specifications": {
+      "dimensions": "16\" x 11\" x 0.75\" (40.6cm x 27.9cm x 1.9cm)",
+      "weight": "2.5 lbs (1.1kg)",
+      "material": "Moso bamboo with food-safe finish",
+      "careInstructions": "Hand wash, oil regularly with mineral oil",
+      "features": ["Juice groove", "Non-slip rubber feet", "Hanging hole"],
+      "usage": "Ideal for meat, vegetables, and general prep"
+    }
+  }
+]
