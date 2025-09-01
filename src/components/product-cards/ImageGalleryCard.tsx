@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Image from 'next/image';
 import { Card } from '../ui/Card';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline';
 
@@ -25,10 +26,12 @@ export const ImageGalleryCard: React.FC<ImageGalleryCardProps> = ({
     <Card className="col-span-2" gradient>
       <div className="relative group">
         <div className="aspect-[16/9] overflow-hidden rounded-2xl bg-gray-100 dark:bg-gray-700">
-          <img
+          <Image
             src={images[currentImageIndex]}
             alt={`${productName} - Image ${currentImageIndex + 1}`}
-            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+            fill
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
+            suppressHydrationWarning={true}
           />
         </div>
         

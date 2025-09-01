@@ -9,7 +9,7 @@ interface SpecificationsCardProps {
 
 export const SpecificationsCard: React.FC<SpecificationsCardProps> = ({ specifications }) => {
   // Filter out empty values and arrays
-  const validSpecs = Object.entries(specifications).filter(([_, value]) => 
+  const validSpecs = Object.entries(specifications).filter(([, value]) => 
     value !== undefined && value !== '' && 
     (!Array.isArray(value) || value.length > 0)
   );
@@ -24,7 +24,7 @@ export const SpecificationsCard: React.FC<SpecificationsCardProps> = ({ specific
       .replace(/^./, str => str.toUpperCase());
   };
 
-  const renderValue = (value: any) => {
+  const renderValue = (value: string | string[]) => {
     if (Array.isArray(value)) {
       return (
         <div className="flex flex-wrap gap-1">

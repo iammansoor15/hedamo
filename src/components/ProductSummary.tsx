@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { StarIcon, ArrowRightIcon } from '@heroicons/react/24/solid';
 import { Product } from '@/types/product';
 
@@ -15,10 +16,12 @@ export const ProductSummary: React.FC<ProductSummaryProps> = ({ product, onClick
     >
       {/* Product Image */}
       <div className="relative mb-6 overflow-hidden rounded-2xl bg-gray-100 dark:bg-gray-700 aspect-[4/3]">
-        <img
+        <Image
           src={product.image}
           alt={product.name}
-          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+          fill
+          className="object-cover transition-transform duration-300 group-hover:scale-110"
+          suppressHydrationWarning={true}
         />
         
         {/* Category Badge */}

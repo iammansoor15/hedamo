@@ -13,7 +13,7 @@ export const NutritionCard: React.FC<NutritionCardProps> = ({ nutrition }) => {
     return null;
   }
 
-  const nutritionEntries = Object.entries(nutrition).filter(([key, value]) => 
+  const nutritionEntries = Object.entries(nutrition).filter(([, value]) => 
     value !== undefined && value !== '' && !Array.isArray(value)
   );
 
