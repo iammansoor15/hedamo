@@ -33,9 +33,6 @@ export const ProductSummary: React.FC<ProductSummaryProps> = ({ product, onClick
             className="object-cover transition-transform duration-300 group-hover:scale-110"
             suppressHydrationWarning={true}
             onError={() => setImageError(true)}
-            loader={({ src, width, quality }) => {
-              return `${src}?w=${width}&q=${quality || 75}`;
-            }}
           />
         )}
         
