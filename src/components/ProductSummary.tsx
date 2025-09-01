@@ -9,6 +9,8 @@ interface ProductSummaryProps {
 }
 
 export const ProductSummary: React.FC<ProductSummaryProps> = ({ product, onClick }) => {
+  const [imageError, setImageError] = React.useState(false);
+
   return (
     <div 
       className="group cursor-pointer bg-white dark:bg-gray-800 rounded-3xl p-6 border border-gray-100 dark:border-gray-700 shadow-sm hover:shadow-xl transition-all duration-300 ease-in-out hover:scale-[1.02] hover:-translate-y-2"
@@ -16,13 +18,26 @@ export const ProductSummary: React.FC<ProductSummaryProps> = ({ product, onClick
     >
       {/* Product Image */}
       <div className="relative mb-6 overflow-hidden rounded-2xl bg-gray-100 dark:bg-gray-700 aspect-[4/3]">
-        <Image
-          src={product.image}
-          alt={product.name}
-          fill
-          className="object-cover transition-transform duration-300 group-hover:scale-110"
-          suppressHydrationWarning={true}
-        />
+        {imageError ? (
+          <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-700 dark:to-gray-800">
+            <div className="text-center">
+              <div className="text-4xl mb-2">🍯</div>
+              <div className="text-sm text-gray-500 dark:text-gray-400">{product.name}</div>
+            </div>
+          </div>
+        ) : (
+          <Image
+            src={product.image}
+            alt={product.name}
+            fill
+            className="object-cover transition-transform duration-300 group-hover:scale-110"
+            suppressHydrationWarning={true}
+            onError={() => setImageError(true)}
+            loader={({ src, width, quality }) => {
+              return `${src}?w=${width}&q=${quality || 75}`;
+            }}
+          />
+        )}
         
         {/* Category Badge */}
         <div className="absolute top-4 left-4">

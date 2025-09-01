@@ -8,11 +8,12 @@ interface ImageGalleryCardProps {
   productName: string;
 }
 
-export const ImageGalleryCard: React.FC<ImageGalleryCardProps> = ({ 
-  images, 
-  productName 
+export const ImageGalleryCard: React.FC<ImageGalleryCardProps> = ({
+  images,
+  productName
 }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [imageError, setImageError] = useState(false);
 
   const nextImage = () => {
     setCurrentImageIndex((prev) => (prev + 1) % images.length);
@@ -26,13 +27,26 @@ export const ImageGalleryCard: React.FC<ImageGalleryCardProps> = ({
     <Card className="col-span-2" gradient>
       <div className="relative group">
         <div className="aspect-[16/9] overflow-hidden rounded-2xl bg-gray-100 dark:bg-gray-700">
-          <Image
-            src={images[currentImageIndex]}
-            alt={`${productName} - Image ${currentImageIndex + 1}`}
-            fill
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
-            suppressHydrationWarning={true}
-          />
+          {imageError ? (
+            <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-700 dark:to-gray-800">
+              <div className="text-center">
+                <div className="text-4xl mb-2">📷</div>
+                <div className="text-sm text-gray-500 dark:text-gray-400">Image not available</div>
+              </div>
+            </div>
+          ) : (
+            <Image
+              src={images[currentImageIndex]}
+              alt={`${productName} - Image ${currentImageIndex + 1}`}
+              fill
+              className="object-cover transition-transform duration-300 group-hover:scale-105"
+              suppressHydrationWarning={true}
+              onError={() => setImageError(true)}
+              loader={({ src, width, quality }) => {
+                return `${src}?w=${width}&q=${quality || 75}`;
+              }}
+            />
+          )}
         </div>
         
         {images.length > 1 && (
